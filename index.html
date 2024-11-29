@@ -3,10 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>ToDo</title>
   </head>
   <body>
+    <main class="main">
+      <article class="all-cards">
+        <div class="head">
+          <h1 class="head-txt">TODO</h1>
+          <img
+            id="to-dark"
+            class="toggle-icon"
+            src="./assets/images/icon-moon.svg"
+            alt="icon-moon"
+          />
+          <img
+            id="no-dark"
+            src="./assets/images/icon-sun.svg"
+            alt="icon-sun"
+            class="toggle-icon hide"
+          />
+        </div>
+        <div class="task-creator">
+          <div class="circle-top"></div>
+          <form action="">
+            <input
+              id="input"
+              class="input"
+              type="text"
+              placeholder="Create a new todo…"
+            />
+          </form>
+        </div>
+        <div class="to-add-tasks">
+          <!--<div class="new-task">
+            <div class="task-created">
+              <div class="circle circle-completed">
+                <img
+                  class="check"
+                  src="./assets/images/icon-check.svg"
+                  alt="check-ico"
+                />
+              </div>
+              <span class="txt-completed">Lorem ipsum dolor sit</span>
+            </div>
+            <img
+              class="delete-item delete-item-hide"
+              src="./assets/images/icon-cross.svg"
+              alt="close-ico"
+            />
+          </div>
+          <div class="new-task">
+            <div class="task-created">
+              <div class="circle">
+                <img
+                  class="dark-check"
+                  src="./assets/images/icon-check.svg"
+                  alt="check-ico"
+                />
+              </div>
+              <span>Lorem ipsum dolor sit</span>
+            </div>
+            <img
+              class="delete-item delete-item-hide"
+              src="./assets/images/icon-cross.svg"
+              alt="close-ico"
+            />
+          </div>-->
+          <div class="counter-and-clear">
+            <span><span id="counter-items-left">5</span> items left</span>
+            <span id="clear-completed" class="clear">Clear Completed</span>
+          </div>
+        </div>
+        <div id="filters" class="filters">
+          <span data-filter="all" class="filter-txt active-filter each-filter"
+            >All</span
+          >
+          <span data-filter="active" class="filter-txt each-filter"
+            >Active</span
+          >
+          <span data-filter="completed" class="filter-txt each-filter"
+            >Completed</span
+          >
+        </div>
+      </article>
+    </main>
     <script src="./js/scripts.js"></script>
   </body>
 </html>
