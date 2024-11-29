@@ -1,0 +1,1 @@
+const rootStyles = document.documentElement.style;
