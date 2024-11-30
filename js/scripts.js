@@ -33,7 +33,7 @@ const toNormalMode = (event) => {
 activateDarkElement.addEventListener('click', toDarkMode);
 deactivateDarkElement.addEventListener('click', toNormalMode);
 
-// imprimir tareas
+// imprimir tareas --> hacerlo diferente si el task.completed === true
 
 const printTasks = (tasks) => {
   tasks.forEach((task) => {
