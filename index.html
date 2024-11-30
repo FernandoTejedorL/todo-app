@@ -14,7 +14,7 @@
   </head>
   <body>
     <main class="main">
-      <article class="all-cards">
+      <article id="all-cards" class="all-cards">
         <div class="head">
           <h1 class="head-txt">TODO</h1>
           <img
@@ -32,7 +32,7 @@
         </div>
         <div class="task-creator">
           <div class="circle-top"></div>
-          <form action="">
+          <form id="form" action="">
             <input
               id="input"
               class="input"
@@ -41,7 +41,7 @@
             />
           </form>
         </div>
-        <div class="to-add-tasks">
+        <div id="to-add-tasks" class="to-add-tasks">
           <!--<div class="new-task">
             <div class="task-created">
               <div class="circle circle-completed">
@@ -76,19 +76,19 @@
               alt="close-ico"
             />
           </div>-->
-          <div class="counter-and-clear">
-            <span><span id="counter-items-left">5</span> items left</span>
-            <span id="clear-completed" class="clear">Clear Completed</span>
-          </div>
+        </div>
+        <div class="counter-and-clear">
+          <span><span id="counter-items-left">0</span> items left</span>
+          <span id="clear-completed" data-type="clear-completed" class="clear"
+            >Clear Completed</span
+          >
         </div>
         <div id="filters" class="filters">
-          <span data-filter="all" class="filter-txt active-filter each-filter"
+          <span data-type="all" class="filter-txt active-filter each-filter"
             >All</span
           >
-          <span data-filter="active" class="filter-txt each-filter"
-            >Active</span
-          >
-          <span data-filter="completed" class="filter-txt each-filter"
+          <span data-type="active" class="filter-txt each-filter">Active</span>
+          <span data-type="completed" class="filter-txt each-filter"
             >Completed</span
           >
         </div>

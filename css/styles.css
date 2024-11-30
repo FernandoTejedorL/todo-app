@@ -346,6 +346,10 @@ body.dark {
 
 /*hidders*/
 
+.pointer-none {
+  pointer-events: none;
+}
+
 .hide {
   display: none;
 }
