@@ -246,16 +246,6 @@ body.dark {
     height: 18px;
     width: 18px;
   }
-
-  .delete-item-hide {
-    display: none;
-  }
-
-  @media (hover: hover) {
-    .delete-item:hover {
-      display: block;
-    }
-  }
 }
 
 .circle-completed {
@@ -292,7 +282,7 @@ body.dark {
   justify-content: space-between;
   padding: 20px 16px 20px 22px;
   background-color: var(--task-bg);
-  border-radius: 0 0 5px 5px;
+  border-radius: 5px;
   font-size: var(--txt-size-xs);
   font-weight: var(--fw-regular);
   color: var(--task-filter);
