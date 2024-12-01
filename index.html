@@ -41,42 +41,7 @@
             />
           </form>
         </div>
-        <div id="to-add-tasks" class="to-add-tasks">
-          <!--<div class="new-task">
-            <div class="task-created">
-              <div class="circle circle-completed">
-                <img
-                  class="check"
-                  src="./assets/images/icon-check.svg"
-                  alt="check-ico"
-                />
-              </div>
-              <span class="txt-completed">Lorem ipsum dolor sit</span>
-            </div>
-            <img
-              class="delete-item delete-item-hide"
-              src="./assets/images/icon-cross.svg"
-              alt="close-ico"
-            />
-          </div>
-          <div class="new-task">
-            <div class="task-created">
-              <div class="circle">
-                <img
-                  class="dark-check"
-                  src="./assets/images/icon-check.svg"
-                  alt="check-ico"
-                />
-              </div>
-              <span>Lorem ipsum dolor sit</span>
-            </div>
-            <img
-              class="delete-item delete-item-hide"
-              src="./assets/images/icon-cross.svg"
-              alt="close-ico"
-            />
-          </div>-->
-        </div>
+        <div id="to-add-tasks" class="to-add-tasks"></div>
         <div class="counter-and-clear">
           <span><span id="counter-items-left">0</span> items left</span>
           <span id="clear-completed" data-type="clear-completed" class="clear"
@@ -84,11 +49,22 @@
           >
         </div>
         <div id="filters" class="filters">
-          <span data-type="all" class="filter-txt active-filter each-filter"
+          <span
+            data-change="filter"
+            data-type="all"
+            class="filter-txt active-filter each-filter"
             >All</span
           >
-          <span data-type="active" class="filter-txt each-filter">Active</span>
-          <span data-type="completed" class="filter-txt each-filter"
+          <span
+            data-change="filter"
+            data-type="active"
+            class="filter-txt each-filter"
+            >Active</span
+          >
+          <span
+            data-change="filter"
+            data-type="completed"
+            class="filter-txt each-filter"
             >Completed</span
           >
         </div>

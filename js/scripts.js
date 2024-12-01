@@ -183,6 +183,17 @@ const filterAll = (event) => {
   printTasks(tasks);
 };
 
+// cambiar el color del filtro activo
+
+const changeFilterColor = (event) => {
+  const filter = event.target.dataset.change;
+  if (!filter) return;
+  for (const filter of filtersElement.children) {
+    filter.classList.remove('active-filter');
+  }
+  event.target.classList.add('active-filter');
+};
+
 //limpiar completos
 
 const clearCompleted = (event) => {
@@ -230,7 +241,8 @@ const clickInMain = (event) => {
   console.log(tasks);
 };
 
-formElement.addEventListener('submit', addTask);
-allCardsElement.addEventListener('click', clickInMain);
 activateDarkElement.addEventListener('click', toDarkMode);
 deactivateDarkElement.addEventListener('click', toNormalMode);
+formElement.addEventListener('submit', addTask);
+filtersElement.addEventListener('click', changeFilterColor);
+allCardsElement.addEventListener('click', clickInMain);
