@@ -214,6 +214,7 @@ body.dark {
   font-size: var(--txt-size-s);
   font-weight: var(--fw-regular);
   border-bottom: 1px solid var(--task-filter);
+  background-color: var(--task-bg);
 }
 
 @media screen and (width>=768px) {
@@ -245,28 +246,21 @@ body.dark {
   .delete-item {
     height: 18px;
     width: 18px;
+    display: none;
+  }
+}
+
+@media (hover: hover) {
+  .new-task:hover .delete-item {
+    display: block;
   }
 }
 
 .circle-completed {
-  background-image: linear-gradient(
-    to bottom right,
-    var(--light-blue),
-    var(--deep-purple)
-  );
-}
-
-.check {
-  width: 7px;
-  height: 5px;
-  pointer-events: none;
-}
-
-@media screen and (width>=768px) {
-  .check {
-    width: 9px;
-    height: 6px;
-  }
+  background-image: url(../assets/images/icon-check.svg),
+    linear-gradient(to bottom right, var(--light-blue), var(--deep-purple));
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .txt-completed {
