@@ -1,30 +1,30 @@
-# Game Shop
+# ToDo APP
 
 <p>
-    <img src="https://raw.githubusercontent.com/FernandoTejedorL/Game-shop/refs/heads/main/design/home.jpg" alt="home">
+    <img src="https://raw.githubusercontent.com/FernandoTejedorL/todo-app/refs/heads/main/design/home.jpg" alt="home">
 </p>
 
 ## Live view
 
 <ul>
     <li>
-        <a target="_blank" href="https://game-shop-tizx.onrender.com">Game Shop</a>
+        <a target="_blank" href="https://todo-app-lwop.onrender.com/">ToDo APP</a>
     </li>
 </ul>
 
 ## Description 📑
 
-Game Shop is the best place to find the new videogames releases for any of the best plattforms!!
+ToDo APP is the perfect app to get reminders of your pending tasks!
 
 ✨ <b>Features</b>
 </br>
-🛍 Buy the newest videogames in the market!.
+📋 Add, complete and delete tasks!
 </br>
-🔍 Advanced Search – Filter games by platform and get platform suggestions when purchasing a new game
+🌝 Switch from light to dark mode! 🌚
 
-## 🚀 What I Learned from Building Game Shop
+## 🚀 What I Learned from Building ToDo APP
 
-Throughout this project, I gained hands-on experience in developing and deploying a full-stack application to production using Render.
+Throughout this project, I gained hands-on experience in developing a simple site to generate code and add it just using simple coding.
 
 During the development process, I worked with:
 
@@ -32,15 +32,9 @@ During the development process, I worked with:
     <li>
         JavaScript, HTML5, and CSS as the core technologies.
     </li>
-    <li>
-        React for the frontend, styled with Styled Components to keep designs modular and dynamic, always based on a mobile-first philosophy while ensuring a fully responsive build.
-    </li>
-    <li>
-        Implemented React Context to manage and share global state across the application
-    </li>
 </ul>
 
-From concept to deployment, Game Shop is my first complete e-commerce project, where I learned to manage app-wide data flow and improve user experience through search and filtering features. 🚀✨
+From concept to deployment, ToDo APP is my first project, where I learned to manage app-wide data flow and improve user experience through simple features. 🚀✨
 
 ## Technologies 🛠
 
@@ -59,15 +53,6 @@ From concept to deployment, Game Shop is my first complete e-commerce project, w
     </a>    
 </p>
 <p>
-    <span>Frameworks and Libraries:</span></br>
-    <a href="https://es.wikipedia.org/wiki/React">
-        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React logo">
-    </a>
-    <a href="https://reactrouter.com/">
-        <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="RRouter logo">
-    </a>
-</p>
-<p>
     <span>Tools and Platforms:</span></br>
     <a href="https://https://render.com/">
         <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render logo">
@@ -80,9 +65,7 @@ From concept to deployment, Game Shop is my first complete e-commerce project, w
 ## Capturas del proyecto
 
 <p>
-   <img src="https://raw.githubusercontent.com/FernandoTejedorL/Game-shop/refs/heads/main/design/home.jpg" alt="home">
-    <img src="https://raw.githubusercontent.com/FernandoTejedorL/Game-shop/refs/heads/main/design/shop.jpg" alt="shop">
-    <img src="https://raw.githubusercontent.com/FernandoTejedorL/Game-shop/refs/heads/main/design/checkout.jpg" alt="checkout">
+    <img src="https://raw.githubusercontent.com/FernandoTejedorL/todo-app/refs/heads/main/design/preview.jpg" alt="shop">
 </p>
 
 ## Author ✒️
@@ -97,7 +80,3 @@ From concept to deployment, Game Shop is my first complete e-commerce project, w
         <a href="https://www.linkedin.com/in/fernando-tejedor-65483b6b/">LinkedIn</a>
     </li>
 </ul>
-
-## Comments
-
-This project is built with Vite
